@@ -1,0 +1,18 @@
+[
+    {
+        "id": "bhamni.opdApp",
+        "label": "Out Patient Department",
+        "description": "Out Patient Department",
+        "extensions": [
+            {
+                "id": "bhamni.extension.opdApp",
+                "extensionPointId": "bhamni.homepageLink",
+                "type": "link",
+                "label": "Out Patient Department",
+                "url": "",
+                "icon": "icon-user",
+                "order": 1
+            }
+        ]
+    }
+]
