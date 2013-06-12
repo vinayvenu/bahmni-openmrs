@@ -1,0 +1,18 @@
+[
+    {
+        "id": "bhamni.legacyAdminApp",
+        "label": "Legacy Admin",
+        "description": "Legacy Admin",
+        "extensions": [
+            {
+                "id": "bhamni.extension.legacyAdminApp",
+                "extensionPointId": "bhamni.homepageLink",
+                "type": "link",
+                "label": "Legacy Admin",
+                "url": "/openmrs/admin",
+                "icon": "icon-user",
+                "order": 3
+            }
+        ]
+    }
+]

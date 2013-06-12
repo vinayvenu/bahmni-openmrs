@@ -11,7 +11,7 @@
                 "label": "Out Patient Department",
                 "url": "../opd",
                 "icon": "icon-user",
-                "order": 2
+                "order": 1
             }
         ]
     }

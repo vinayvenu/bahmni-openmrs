@@ -11,6 +11,7 @@
     <name>Bahmni EMR Apps</name>
 
     <modules>
+        <module>openmrs-module-bahmni.apps</module>
         <module>openmrs-module-bahmni.opd</module>
         <module>openmrs-module-bahmni.registration</module>
     </modules>
