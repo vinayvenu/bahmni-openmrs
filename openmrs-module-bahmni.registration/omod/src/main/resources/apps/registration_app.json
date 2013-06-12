@@ -9,7 +9,7 @@
                 "extensionPointId": "bhamni.homepageLink",
                 "type": "link",
                 "label": "Register Patient",
-                "url": "/registration",
+                "url": "../registration",
                 "icon": "icon-user",
                 "order": 1
             }
