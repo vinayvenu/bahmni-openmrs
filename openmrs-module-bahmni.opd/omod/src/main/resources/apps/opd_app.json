@@ -9,7 +9,7 @@
                 "extensionPointId": "bhamni.homepageLink",
                 "type": "link",
                 "label": "Out Patient Department",
-                "url": "../opd",
+                "url": "../../../bhamni.opd/opd/app/index.html",
                 "icon": "icon-user",
                 "order": 1
             }
