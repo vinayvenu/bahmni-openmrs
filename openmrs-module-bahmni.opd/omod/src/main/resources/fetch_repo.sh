@@ -12,10 +12,13 @@ if [ ! -d "$outputDir/$repoName" ]; then
   mkdir -p $outputDir
   cd $outputDir
   git clone $1
+  cd $repoName
+  bower install
   cd -
 else
   echo "Repo exists $outputDir/$repoName. Updating."
   cd $outputDir/$repoName
   git pull --rebase
+  bower install
   cd -
 fi
