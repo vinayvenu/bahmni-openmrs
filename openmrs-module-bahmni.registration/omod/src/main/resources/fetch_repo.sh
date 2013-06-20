@@ -14,11 +14,15 @@ if [ ! -d "$outputDir/$repoName" ]; then
   git clone $1
   cd $repoName
   bower install
+  sudo npm install
+  grunt --force
   cd -
 else
   echo "Repo exists $outputDir/$repoName. Updating."
   cd $outputDir/$repoName
   git pull --rebase
   bower install
+  sudo npm install
+  grunt --force
   cd -
 fi
