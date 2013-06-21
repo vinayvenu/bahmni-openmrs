@@ -14,7 +14,7 @@ if [ ! -d "$outputDir/$repoName" ]; then
   git clone $1
   cd $repoName
   bower install
-  sudo npm install
+  npm install
   grunt --force
   cd -
 else
@@ -22,7 +22,7 @@ else
   cd $outputDir/$repoName
   git pull --rebase
   bower install
-  sudo npm install
+  npm install
   grunt --force
   cd -
 fi
