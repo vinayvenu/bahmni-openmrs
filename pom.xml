@@ -16,4 +16,19 @@
         <module>openmrs-module-bahmni.registration</module>
     </modules>
     
+	<distributionManagement>
+	    <snapshotRepository>
+	        <id>bahmni-artifactory</id>
+	        <name>bahmni-artifactory-snapshots</name>
+	        <url>http://172.18.2.1:8081/artifactory/libs-snapshot-local</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	
+	<repositories>
+		<repository>
+	        <id>bahmni-artifactory</id>
+	        <name>bahmni-artifactory-snapshots</name>
+	        <url>http://172.18.2.1:8081/artifactory/libs-snapshot-local</url>
+	    </repository>	    
+    </repositories>
 </project>
