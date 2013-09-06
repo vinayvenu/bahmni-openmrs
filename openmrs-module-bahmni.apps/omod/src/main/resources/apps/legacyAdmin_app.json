@@ -6,7 +6,7 @@
         "extensions": [
             {
                 "id": "bhamni.extension.legacyAdminApp",
-                "extensionPointId": "bhamni.homepageLink",
+                "extensionPointId": "bahmni.homepageLink",
                 "type": "link",
                 "label": "Legacy Admin",
                 "url": "/openmrs/admin",

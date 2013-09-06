@@ -4,18 +4,21 @@ echo "Fetching repo $1"
 
 baseDir=$(dirname $0)
 outputDir=$baseDir/../webapp/resources/
+tmpDir=$baseDir/temp
 
 repoName=`echo $1 | sed 's/^.*\/\(.*\)\.git/\1/'`
 
-if [ ! -d "$outputDir/$repoName" ]; then
-  echo "Repo doesn't exist. Cloning into $outputDir"
-  mkdir -p $outputDir
-  cd $outputDir
-  git clone $1
-  cd -
-else
-  echo "Repo exists $outputDir/$repoName. Updating."
-  cd $outputDir/$repoName
-  git pull --rebase
-  cd -
-fi
+rm -rf $outputDir
+mkdir -p $outputDir
+
+rm -rf $tmpDir
+mkdir -p $tmpDir
+
+cd $tmpDir
+git clone --depth=1 $1
+cd $repoName
+bower install
+npm install
+grunt dist
+cp -R $tmpDir/$repoName/dist/* $outputDir
+rm -rf $tmpDir

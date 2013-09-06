@@ -4,14 +4,14 @@
 
 	<parent>
 		<groupId>org.openmrs.module</groupId>
-		<artifactId>bhamni.registration</artifactId>
+		<artifactId>bahmni.registration</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>bhamni.registration-omod</artifactId>
+	<artifactId>bahmni.registration-omod</artifactId>
 	<packaging>jar</packaging>
-	<name>Registration App for Bhamni Module OMOD</name>
-	<description>OMOD project for RegistrationAppforBhamni</description>
+	<name>Registration App for Bahmni Module OMOD</name>
+	<description>OMOD project for Bahmni's Registration App</description>
 
 	<dependencies>
 
@@ -212,6 +212,7 @@
                         <configuration>
                             <executable>sh</executable>
                             <arguments>
+                                <argument>-x</argument>
                                 <argument>${project.basedir}/src/main/resources/fetch_repo.sh</argument>
                                 <argument>https://github.com/Bhamni/registration.git</argument>
                             </arguments>

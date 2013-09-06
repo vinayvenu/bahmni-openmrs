@@ -212,6 +212,7 @@
                         <configuration>
                             <executable>sh</executable>
                             <arguments>
+                                <argument>-x</argument>
                                 <argument>${project.basedir}/src/main/resources/fetch_repo.sh</argument>
                                 <argument>https://github.com/Bhamni/bahmni-apps.git</argument>
                             </arguments>
