@@ -17,7 +17,7 @@ mkdir -p $tmpDir
 cd $tmpDir
 git clone --depth=1 $1
 cd $repoName
-bower install
+bower install --force-latest
 npm install
 grunt dist
 cp -R $tmpDir/$repoName/dist/* $outputDir

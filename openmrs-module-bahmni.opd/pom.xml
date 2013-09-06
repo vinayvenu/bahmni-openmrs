@@ -9,12 +9,12 @@
     </parent>
 
 	<groupId>org.openmrs.module</groupId>
-	<artifactId>bhamni.opd</artifactId>
+	<artifactId>bahmni.opd</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>OPD App for Bhamni Module</name>
-	<description>OPD App for Bhamni</description>
-	<url>https://wiki.openmrs.org/display/docs/OPD+App+for+Bhamni+Module+Module</url>
+	<name>OPD App for Bahmni Module</name>
+	<description>OPD App for Bahmni</description>
+	<url>https://wiki.openmrs.org/display/docs/OPD+App+for+Bahmni+Module</url>
 	
 	<developers>
 		<developer>
@@ -28,9 +28,7 @@
 	</organization>
 
 	<scm>
-		<connection>scm:svn:https://svn.openmrs.org/openmrs-modules/bhamni.opd/trunk/</connection>
-		<developerConnection>scm:svn:https://svn.openmrs.org/openmrs-modules/bhamni.opd/trunk/</developerConnection>
-		<url>https://svn.openmrs.org/openmrs-modules/bhamni.opd/trunk/</url>
+		<url>https://github.com/Bhamni/bahmni-openmrs/tree/master/openmrs-module-bahmni.opd</url>
 	</scm>
 
 	<modules>

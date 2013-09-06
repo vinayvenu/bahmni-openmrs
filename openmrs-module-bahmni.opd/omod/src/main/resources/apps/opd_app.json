@@ -1,15 +1,15 @@
 [
     {
-        "id": "bhamni.opdApp",
+        "id": "bahmni.opdApp",
         "label": "Out Patient Department",
         "description": "Out Patient Department",
         "extensions": [
             {
-                "id": "bhamni.extension.opdApp",
-                "extensionPointId": "bhamni.homepageLink",
+                "id": "bahmni.extension.opdApp",
+                "extensionPointId": "bahmni.homepageLink",
                 "type": "link",
                 "label": "Out Patient Department",
-                "url": "../../../bhamni.opd/opd/app/index.html",
+                "url": "../../moduleResources/bahmni.opd/patients/index.html",
                 "icon": "icon-user",
                 "order": 1
             }

@@ -11,7 +11,7 @@
  *
  * Copyright (C) OpenMRS, LLC.  All Rights Reserved.
  */
-package org.openmrs.module.bhamni.opd;
+package org.openmrs.module.bahmni.opd;
 
 
 import org.apache.commons.logging.Log; 
@@ -21,7 +21,7 @@ import org.openmrs.module.ModuleActivator;
 /**
  * This class contains the logic that is run every time this module is either started or stopped.
  */
-public class OPDAppforBhamniActivator implements ModuleActivator {
+public class OPDAppforBahmniActivator implements ModuleActivator {
 	
 	protected Log log = LogFactory.getLog(getClass());
 		
@@ -29,42 +29,42 @@ public class OPDAppforBhamniActivator implements ModuleActivator {
 	 * @see ModuleActivator#willRefreshContext()
 	 */
 	public void willRefreshContext() {
-		log.info("Refreshing OPD App for Bhamni Module");
+		log.info("Refreshing OPD App for Bahmni Module");
 	}
 	
 	/**
 	 * @see ModuleActivator#contextRefreshed()
 	 */
 	public void contextRefreshed() {
-		log.info("OPD App for Bhamni Module refreshed");
+		log.info("OPD App for Bahmni Module refreshed");
 	}
 	
 	/**
 	 * @see ModuleActivator#willStart()
 	 */
 	public void willStart() {
-		log.info("Starting OPD App for Bhamni Module");
+		log.info("Starting OPD App for Bahmni Module");
 	}
 	
 	/**
 	 * @see ModuleActivator#started()
 	 */
 	public void started() {
-		log.info("OPD App for Bhamni Module started");
+		log.info("OPD App for Bahmni Module started");
 	}
 	
 	/**
 	 * @see ModuleActivator#willStop()
 	 */
 	public void willStop() {
-		log.info("Stopping OPD App for Bhamni Module");
+		log.info("Stopping OPD App for Bahmni Module");
 	}
 	
 	/**
 	 * @see ModuleActivator#stopped()
 	 */
 	public void stopped() {
-		log.info("OPD App for Bhamni Module stopped");
+		log.info("OPD App for Bahmni Module stopped");
 	}
 		
 }

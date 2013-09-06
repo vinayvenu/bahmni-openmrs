@@ -2,8 +2,7 @@
 /.project
 *.DS_Store
 /.idea
-
 target
-
 *.iml
 /.classpath
+.rvmrc

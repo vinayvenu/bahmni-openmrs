@@ -4,14 +4,14 @@
 
 	<parent>
 		<groupId>org.openmrs.module</groupId>
-		<artifactId>bhamni.opd</artifactId>
+		<artifactId>bahmni.opd</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>bhamni.opd-api</artifactId>
+	<artifactId>bahmni.opd-api</artifactId>
 	<packaging>jar</packaging>
-	<name>OPD App for Bhamni Module API</name>
-	<description>API project for OPDAppforBhamni</description>
+	<name>OPD App for Bahmni Module API</name>
+	<description>API project for OPDAppforBahmni</description>
 
 	<dependencies>
 	

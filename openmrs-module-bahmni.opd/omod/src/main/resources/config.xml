@@ -17,7 +17,7 @@
 
 	
 	<!-- Module Activator -->
-	<activator>${project.parent.groupId}.${project.parent.artifactId}.OPDAppforBhamniActivator</activator>
+	<activator>${project.parent.groupId}.${project.parent.artifactId}.OPDAppforBahmniActivator</activator>
 	
 	
 	<!-- Maps hibernate file's, if present -->
