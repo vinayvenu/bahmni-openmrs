@@ -1,5 +1,7 @@
 #! /bin/sh
 
+set -e
+
 echo "Fetching repo $1"
 
 baseDir=$(dirname $0)
