@@ -16,11 +16,13 @@ mkdir -p $outputDir
 rm -rf $tmpDir
 mkdir -p $tmpDir
 
+regUiDir=$repoName/registration-ui
+
 cd $tmpDir
 git clone --depth=1 $1
-cd $repoName
+cd $regUiDir
 bower install --force-latest
 npm install
 grunt dist
-cp -R $tmpDir/$repoName/dist/* $outputDir
+cp -R $tmpDir/$regUiDir/dist/* $outputDir
 rm -rf $tmpDir
